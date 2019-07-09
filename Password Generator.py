@@ -8,6 +8,5 @@ print ("Generating Random Password \n")
 characters = string.ascii_letters + string.punctuation  + string.digits
 
 # Combine characters and display the password
-# Version 0.1.2 - Updated to support longer passwords for strength and security. Password length is now between 12 and 20 characters of alphanumberic and special characters.
 password =  "".join(choice(characters) for x in range(randint(12, 20)))
 print (password)
