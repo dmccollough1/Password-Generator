@@ -8,4 +8,5 @@ characters = string.ascii_letters + string.punctuation  + string.digits
 
 # Combine characters and display the password
 password =  "".join(choice(characters) for x in range(randint(12, 20)))
-print ("Your password is: ")(password)
+print ("Your password is: ")
+print (password)
