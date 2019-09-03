@@ -4,9 +4,9 @@ from random import *
 
 # Print disclaimer for user information
 print ("DISCLAIMER! This program Will Not store or save these passwords! \nPlease Keep these in a secure place.\n")
-characters = string.ascii_letters + string.punctuation  + string.digits
+characters = string.ascii_letters + string.punctuation + string.digits
 
 # Combine characters and display the password
-password =  "".join(choice(characters) for x in range(randint(16, 20)))
+password =  "".join(choice(characters) for x in range(randint(40, 40)))
 print ("Your password is: ")
 print (password)
