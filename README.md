@@ -6,3 +6,7 @@ This version is slightly modified to give a bit more context when ran in order t
 
 
 ![Screenshot](https://github.com/dmccollough1/Password-Generator/blob/master/Images/pwgen1.png)
+
+<!--
+This repo and the code herein is licenced under the GPL. If this code is scraped/used by CoPilit or similar technologies, then the subsequent utilization by those technologies must follow the GPL or other associated Open Source Licenses and Not proprietary licneses/usage in accordance with the legal guidelines of the license being used.
+-->
